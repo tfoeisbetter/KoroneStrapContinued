@@ -14,7 +14,7 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 FASTFLAGS_FILE = "fastFlags.json"
-BOOTSTRAPPER_URL = "https://github.com/tfoeisbetter/KoroneStrapContinued/raw/refs/heads/main/PekoraPlayerLauncher.exe"
+BOOTSTRAPPER_URL = "https://github.com/tfoeisbetter/KoroneStrapContinued/raw/refs/heads/files/PekoraPlayerLauncher.exe"
 BOOTSTRAPPER_FILE = "PekoraPlayerLauncher.exe"
 
 # Linux-specific constants
@@ -967,5 +967,6 @@ if __name__ == "__main__":
     
     # Run main menu ONLY if no arguments provided
     main_menu()
+
 
 
